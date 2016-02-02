@@ -25,7 +25,7 @@ SECRET_KEY = 'ox_j^guz!*_lay2==ev_+=e73q)46h36^c=h(2vmy_8u7#5h*w'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [ 'django.sh4ke.acrux.uberspace.de' ]
 
 
 # Application definition
@@ -104,7 +104,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/1.9/topics/i18n/
 
-LANGUAGE_CODE = 'de-DE'
+LANGUAGE_CODE = 'de-de'
 
 TIME_ZONE = 'Europe/Berlin'
 
@@ -113,6 +113,8 @@ USE_I18N = True
 USE_L10N = True
 
 USE_TZ = True
+
+USE_X_FORWARDED_HOST = True
 
 
 # Static files (CSS, JavaScript, Images)
