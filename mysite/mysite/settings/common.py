@@ -19,14 +19,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.9/howto/deployment/checklist/
 
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'ox_j^guz!*_lay2==ev_+=e73q)46h36^c=h(2vmy_8u7#5h*w'
-
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
-
-ALLOWED_HOSTS = [ 'django.sh4ke.acrux.uberspace.de' ]
-CSRF_TRUSTED_ORIGINS = ALLOWED_HOSTS
+ALLOWED_HOSTS = []
 
 # Application definition
 INSTALLED_APPS = [
@@ -113,8 +106,6 @@ USE_I18N = True
 USE_L10N = True
 
 USE_TZ = True
-
-USE_X_FORWARDED_HOST = True
 
 
 # Static files (CSS, JavaScript, Images)
