@@ -26,7 +26,7 @@ SECRET_KEY = 'ox_j^guz!*_lay2==ev_+=e73q)46h36^c=h(2vmy_8u7#5h*w'
 DEBUG = True
 
 ALLOWED_HOSTS = [ 'django.sh4ke.acrux.uberspace.de' ]
-
+CSRF_TRUSTED_ORIGINS = ALLOWED_HOSTS
 
 # Application definition
 INSTALLED_APPS = [
