@@ -1,3 +1,5 @@
+db.sqlite3
+
 bin
 develop-eggs
 src/*.egg-info
