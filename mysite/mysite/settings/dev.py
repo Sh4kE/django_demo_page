@@ -3,5 +3,3 @@ from .common import *
 
 
 DEBUG = True
-
-STATIC_URL = '/static/'
