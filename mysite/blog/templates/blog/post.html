@@ -1,7 +1,8 @@
 {% extends "personal/base.html" %}
 
 {% block content %}
-<h1>{{ post.title }}</h1>
+<h3>{{ post.title }}</h3>
+<h6>on {{post.date}}</h6>
 
-{{ post.body }}
+<p></p>{{ post.body|linebreaks }}</p>
 {% endblock %}
